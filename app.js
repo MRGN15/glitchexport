@@ -36,8 +36,9 @@ app.event('app_mention', async ({ event, context, client, say }) => {
         },
       }
     ]});
-  }
-  catch (error) {
+  console.log("message sent");
+
+} catch (error) {
     console.error(error);
   }
 });
